@@ -1,0 +1,33 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+.navbar{
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+.navbar-brand{
+    padding: 25px;
+    margin-left: 15px;
+
+}
+.navbar-nav{
+    padding: 25px;
+    margin-left: auto;
+}
+button.btn{
+    background-color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 50px;
+    color:white;
+}
+a.nav-link{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+a.nav-link:hover{
+    border-bottom: 1px solid black;
+    color: black;
+}

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.over-div{
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  border-bottom: 1px solid white;
+  
+}
+  .header-wrap{
+    display: flex;
+    flex: 50%;
+    color: white;
+    align-items: flex-start;
+    padding: 30px;
+}
+.header-1{
+  font-size: 6.5vw;
+  font-weight: 400;
+}
+.header-wrap2{
+  flex: 50%;
+  color: white;
+  justify-content: flex-start;
+  padding: 60px 40px;
+  border-left: 1px solid white;
+}
+img.jasmine{
+  height: 150px;
+  
+}
+.thought{
+  margin-top: 60px;
+  width: 75%;
+  font-size: 22px;
+  margin-bottom: 25px;
+}
+.thought-person{
+  font-size: 22px;
+}
+@media screen and (max-width: 768px) {
+  .over-div{
+    display: flex;
+    flex-direction: column;
+  }
+}

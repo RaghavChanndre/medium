@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+image{
+     margin-top: 20px;
+      width:500px;
+     height: 400px;
+     flex-direction: row;
+}
+  
+   

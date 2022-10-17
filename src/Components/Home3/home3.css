@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.dual-div{
+    border-bottom: 1px solid black;
+}
+.upper-div1{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border-bottom: none;
+    padding-top: 25px;
+}
+.upper-div2{
+    background-color: #34a245;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border-bottom: none;
+   padding-top: 25px;
+}

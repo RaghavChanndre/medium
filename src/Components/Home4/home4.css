@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.svg{
+   background-color: #34a245;
+   display: flex;
+   flex-direction: row;
+   border-bottom: 1px solid black;
+   
+}
+.svg1{
+    flex: 50%;
+    padding: 30px;
+    border-right: 1px solid black;
+}
+h2.svg-head{
+    font-size: 3.5vw;
+    margin-bottom: 35px;
+    font-weight: 400;
+}
+.svg-image{
+    margin-bottom: 32px;
+
+}
+.svg-text{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.svg2{
+    flex: 50%;
+    padding: 30px;
+}
+@media screen and (max-width: 768px) {
+    .svg{
+      display: flex;
+      flex-direction: column;
+    }
+  }
